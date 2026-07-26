@@ -24,7 +24,7 @@ age               = st.number_input("Age", min_value=18, max_value=100, value=35
 income_level      = st.radio("Income Level",  ["Low", "Medium", "High", "Very High"])
 education         = st.radio("Education",     ["Graduate", "High School", "Other", "Post-Graduate"])
 device_type       = st.radio("Device Type",   ["Desktop-only", "Mobile-only", "Multi-device"])
-tech_comfort_score = st.number_input("Tech Comfort Score", min_value=1, max_value=5, value=3)
+tech_comfort_score = st.slider("Tech Comfort Score", min_value=1, max_value=5, value=3)
 num_active_qtrs = st.number_input("Number of Active 2022 Quarters", min_value=0, max_value=4, value=2)
 total_session_length = st.number_input("Total Session Length 2022", min_value=0, max_value=15601, value=1800)
 total_num_sessions = st.number_input("Total Number of Sessions 2022", min_value=0, max_value=262, value=40)
